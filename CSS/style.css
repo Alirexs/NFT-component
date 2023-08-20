@@ -1,0 +1,93 @@
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blues : hsl(217, 54%, 11%);
+    --Very-dark-bluee : hsl(216, 50%, 16%);
+    --Very-dark-blue : hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    --border-radius: 1.5rem
+}
+* {
+    margin: 0.7rem 0.5rem 1rem 0;
+}
+
+html {
+    font-family:"Outfit";
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.8rem;
+    height: 100vh;
+    background-color: var(--Very-dark-blues);
+}
+
+.container {
+    width: 32rem;
+    background-color: var(--Very-dark-bluee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    padding: 2rem ;
+    padding-bottom: 0;
+
+}
+
+
+.nft-img {
+    width: 92%;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+}
+
+.nft-avatar {
+    width: 3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Very-dark-blue);
+}
+
+.icons-ETH , .icons-clock {
+    display: flex;
+}
+
+.avatar-name {
+    align-self: center;
+}
+
+.nft-footer {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.nft-txt h3 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.nft-txt p {
+    color: var(--Soft-blue);
+}
+
+.icons-ETH p {
+    color: var(--Cyan);
+
+}
+
+.nft-name {
+    margin-left: 0;
+    color:#fff;
+}
