@@ -110,6 +110,8 @@ body {
 }
 .avatar-name {
     align-self: center;
+    color: var(--Soft-blue);
+    font-weight: 500;
 }
 
 .nft-footer {
@@ -128,7 +130,7 @@ body {
     color: var(--Cyan);
     cursor: pointer;
 }
-.nft-txt p {
+.description {
     color: var(--Soft-blue);
     font-weight: 200;
 }
