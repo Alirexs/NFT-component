@@ -55,6 +55,7 @@ body {
 .nft-img-wrapper {
     display: inline-block;
     position: relative;
+    margin: 0;
 }
 
 .nft-view-icon {
