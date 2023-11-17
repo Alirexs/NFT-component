@@ -11,13 +11,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/normalize.css" />
   </head>
   <body>
-    <div class="container">
+    <main class="container flow-content">
       <div class="nft-img-wrapper">
         <img class="nft-img" src="images/image-equilibrium.jpg" alt="" />
-        <div class="nft-view-icon">
+        <div class="nft-view-icon"></div>
+        <div class="view-icon">
           <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
               <path d="M0 0h48v48H0z" />
@@ -30,13 +30,13 @@
           </svg>
         </div>
       </div>
-      <div class="nft-txt">
-        <h3>Equilibrium #3429</h3>
+      <div class="nft-txt flow-content">
+        <h3 class="white-color">Equilibrium #3429</h3>
         <p class="description">
           Our Equilibrium collection promotes balance and calm.
         </p>
-        <div class="icons">
-          <div class="icons-ETH">
+        <div class="icons flex">
+          <div class="icons-ETH flex">
             <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
@@ -45,7 +45,7 @@
             </svg>
             <p>0.041 ETH</p>
           </div>
-          <div class="icons-clock">
+          <div class="icons-clock flex">
             <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
@@ -55,13 +55,18 @@
             <p>3 days left</p>
           </div>
         </div>
-        <div class="nft-footer">
-          <img class="nft-avatar" src="images/image-avatar.png" alt="" />
+        <div class="nft-footer flex flow-content">
+          <img
+            width="30px"
+            class="nft-avatar"
+            src="images/image-avatar.png"
+            alt=""
+          />
           <p class="avatar-name">
-            Creation of <span class="nft-name">Jules Wyvern</span>
+            Creation of <span class="nft-name white-color">Jules Wyvern</span>
           </p>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
