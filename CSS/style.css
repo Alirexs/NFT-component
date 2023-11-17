@@ -128,7 +128,6 @@ body {
     cursor: pointer;
 }
 .description {
-    color: var(--Soft-blue);
     font-weight: 200;
 }
 
